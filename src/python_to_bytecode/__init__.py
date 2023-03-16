@@ -23,4 +23,4 @@ class PythonToBytecode():
             min_size = (1050, 634)
         )
 
-        webview.start(debug=True)
+        webview.start()
