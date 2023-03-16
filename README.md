@@ -1,5 +1,3 @@
-# python-to-bytecode
-
 <div align="center">
 
   # 💾 python-to-bytecode
