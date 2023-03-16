@@ -1,0 +1,63 @@
+body {
+    background-color: #29192c;
+}
+
+.bg-light {
+    background-color: #48304d !important;
+}
+
+.form-control:focus {
+    border-color: #f865b0;
+    box-shadow: 0 0 0 0.2rem rgba(248, 101, 176, 0.50);
+}
+
+.btn-primary, .btn-primary:focus {
+    background-color: #f865b0 !important;
+    border-color: #f865b0 !important;
+}
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 101, 176, 0.50);
+}
+
+
+
+#disassemble_button {
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#python_code_form label, #bytecode_form label {
+    position: relative;
+
+    margin-top: 5px;
+    margin-bottom: 3px;
+
+    width: 100%;
+    text-align: center;
+
+    color: #fbcaef;
+}
+
+#python_code_form label i, #bytecode_form label i {
+    display: inline-block;
+    font-size: 50px;
+}
+
+#python_code_form label h4, #bytecode_form label h4 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 5px;
+    display: inline-block;
+    top: -14px;
+}
+
+#python_code_form textarea, #bytecode_form textarea {
+    color: #fbcaef;
+    background-color: #150d16;
+}
+
+#bytecode_form textarea {
+}
