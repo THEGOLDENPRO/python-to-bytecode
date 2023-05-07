@@ -2,7 +2,7 @@ import webview
 from devgoldyutils.logging import LoggerAdapter, Colours, log, add_custom_handler
 
 LOGGER_NAME = f"{Colours.ORANGE.value}Python {Colours.RESET_COLOUR.value}To {Colours.GREY.value}Bytecode{Colours.RESET_COLOUR.value}"
-pytob_logger = add_custom_handler(log.getLogger(LOGGER_NAME)); pytob_logger.setLevel(log.DEBUG)
+pytob_logger = add_custom_handler(log.getLogger(LOGGER_NAME), log.DEBUG)
 
 from .js_api import Api
 

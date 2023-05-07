@@ -1,2 +1,2 @@
-devgoldyutils>=2.3
+devgoldyutils>=2.4.3
 pywebview>=4.0.2
